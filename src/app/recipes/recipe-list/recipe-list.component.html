@@ -13,8 +13,7 @@
     recipe (from that list) to recipe-item-->
     <app-recipe-item
       *ngFor="let recipeItem of recipes"
-      [recipe]="recipeItem"
-    (recipeSelected)="onRecipeSelected(recipeItem)"></app-recipe-item>
+      [recipe]="recipeItem"></app-recipe-item>
   </div>
 </div>
 
